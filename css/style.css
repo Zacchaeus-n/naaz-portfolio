@@ -25,7 +25,7 @@ nav .logo {
   display: flex;
   align-items: center;
   font-size: 24px;
-  color: #3e65da;
+  color: teal;
 }
 nav .logo .portfolio {
   margin-left: 0.5rem;
@@ -80,7 +80,7 @@ nav .icon-burger .line {
 }
 
 h1 {
-  color: #333;
+  color: teal;
   font-size: 3.5rem;
   line-height: 3rem;
   letter-spacing: 0.1rem;
@@ -90,19 +90,23 @@ h1 {
 }
 
 h2 {
-  color: #333;
+  color: turquoise;
   font-size: 2rem;
   font-weight: 500;
   letter-spacing: 1.1rem;
 }
 
 h3 {
-  color: #333;
+  color: tomato;
   font-size: 1.2rem;
 }
 
 h4 {
   color: #555;
+  font-size: 0.9rem;
+}
+h5 {
+  color: orange;
   font-size: 0.9rem;
 }
 
@@ -197,6 +201,7 @@ h4 {
 
 .card ul li {
   font-size: 16px;
+  line-height: 2rem;
 }
 
 /* youtube */
@@ -324,6 +329,7 @@ h4 {
 
 .rating {
   margin-top: 1rem;
+  color: orange;
 }
 
 /* Projects Secttion */
@@ -358,7 +364,14 @@ h4 {
   justify-content: space-between;
   align-items: center;
 }
+.btn_group a {
+  text-decoration: none;
+  color: teal;
+}
 
+.btn_group a:hover {
+  color: #fff;
+}
 .btn_group button {
   border: 1px solid salmon;
   padding: 5px 10px;
@@ -371,7 +384,6 @@ h4 {
 }
 
 .btn_group button:hover {
-  color: #fff;
   background-color: tomato;
 }
 
@@ -381,10 +393,26 @@ h4 {
 
 .mini_proj {
   margin: 0 1rem;
+  color: teal;
+}
+.mini_proj a {
+  color: teal;
+  text-decoration: none;
+}
+.mini_proj a:hover {
+  color: turquoise;
+  text-decoration: underline;
 }
 
 /* contact section */
 #contact {
+  background: rgb(230, 169, 56);
+  background: linear-gradient(
+    0deg,
+    rgba(230, 169, 56, 0) 0%,
+    rgba(241, 177, 51, 0.24693627450980393) 69%,
+    rgba(253, 187, 45, 0) 100%
+  );
   text-align: center;
 }
 
@@ -406,7 +434,7 @@ textarea {
   padding: 1.3rem 0.5rem;
   outline: none;
   border-radius: 8px;
-  background-color: rgb(219, 226, 233);
+  background-color: aliceblue;
   border: none;
   transition: transform 450ms;
 }
@@ -418,11 +446,14 @@ textarea:hover {
 }
 
 .form button {
-  width: 25%;
+  width: 40%;
   margin: 1rem 0 3rem 0;
   border-radius: 8px;
-  padding: 0.5rem 0;
+  background-color: aliceblue;
+  color: teal;
+  padding: 1.3rem 0;
   border: none;
+  font-size: 20px;
   transition: all 300ms ease-in;
 }
 
